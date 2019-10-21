@@ -1,0 +1,41 @@
+{
+  "name": "@fooxly/eslint-config-react-native",
+  "version": "1.0.0",
+  "description": "The default ESLint config for Fooxly projects using React Native.",
+  "keywords": [
+    "fooxly",
+    "code",
+    "react",
+    "native",
+    "eslint",
+    "config",
+    "standard",
+    "react-native"
+  ],
+  "author": "Fooxly <hello@fooxly.com> (https://developers.fooxly.com)",
+  "homepage": "https://github.com/Fooxly/eslint-config-react-native",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Fooxly/eslint-config-react-native.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Fooxly/eslint-config-react-native/issues",
+    "email": "bugs@fooxly.com"
+  },
+  "main": "index.js",
+  "engines": {
+    "node": ">=10"
+  },
+  "scripts": {
+    "test": "eslint test/success && node test"
+  },
+  "dependencies": {
+    "@fooxly/eslint-config-react": ">=1.0.0",
+    "eslint": ">=6.5.1",
+    "eslint-plugin-react-native": ">=3.7.0"
+  },
+  "devDependencies": {
+    "react": "^16.10.2"
+  }
+}
