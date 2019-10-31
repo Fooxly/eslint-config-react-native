@@ -1,6 +1,6 @@
 {
   "name": "@fooxly/eslint-config-react-native",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "The default ESLint config for Fooxly projects using React Native.",
   "keywords": [
     "fooxly",
