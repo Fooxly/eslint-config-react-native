@@ -109,7 +109,7 @@ These cause an unnecessary performance loss due to the array's identity changing
 
 ## :label:&nbsp; Badge
 
-Are you using this in one of your projects? Include one of these badges in your README to let others know that your code is using the Fooxly code style.
+Are you using this in one of your projects? Include this badge in your README to let others know that your code is using the Fooxly code style.
 
 [![js-fooxly-style](https://img.shields.io/badge/code%20style-fooxly-brightgreen)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
 
