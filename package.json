@@ -28,14 +28,17 @@
     "node": ">=10"
   },
   "scripts": {
-    "test": "eslint test/success && node test"
+    "test": "eslint --parser babel-eslint test/success && node test"
   },
   "dependencies": {
-    "@fooxly/eslint-config-react": ">=1.0.0",
-    "eslint": ">=6.5.1",
-    "eslint-plugin-react-native": ">=3.7.0"
+    "@fooxly/eslint-config-react": "^2.0.0",
+    "eslint": "^6.6.0",
+    "eslint-plugin-react-native": "^3.8.1"
   },
   "devDependencies": {
-    "react": "^16.10.2"
+    "@babel/core": "^7.7.4",
+    "@fooxly/babel-preset-react": "^2.1.0",
+    "babel-eslint": "^10.0.3",
+    "react": "^16.11.0"
   }
 }

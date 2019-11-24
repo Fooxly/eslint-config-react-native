@@ -93,7 +93,14 @@ Logging level: **Warning**
 
 Splitting platform-specific parts of your app in multiple files produces the correct bundle per platform.
 
+### [No Single Element Style Arrays]
+
+Logging level: **Error**
+
+These cause unnecessary re-renders as each time the array's identity changes and are therefore not allowed.
+
 [No Inline Styles]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-inline-styles.md
 [No Unused Styles]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-unused-styles.md
 [No Color Literals]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-color-literals.md
 [Splitting Platform Components]: https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/split-platform-components.md
+[No Single Element Style Arrays]: https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-single-element-style-arrays.md

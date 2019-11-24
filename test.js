@@ -1,7 +1,7 @@
 const eslint = require('eslint')
 const baseConfig = require('.')
 
-const engine = new eslint.CLIEngine({ baseConfig, ignore: false })
+const engine = new eslint.CLIEngine({ baseConfig, parser: 'babel-eslint', ignore: false })
 const report = engine.executeOnFiles('test/fail')
 
 const EXPECTED_ERROR = 2
