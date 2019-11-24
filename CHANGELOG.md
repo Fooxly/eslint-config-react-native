@@ -7,7 +7,7 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ## [2.0.0] - 2019-11-24
 ### Added
-- Added our support buttons to the readme
+- [CI workflow](https://github.com/Fooxly/eslint-config-react-native/actions?query=workflow%3Atests)
 - .gitignore file
 - Babel for testing
 - [No Single Element Style Arrays](https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-single-element-style-arrays.md) rule

@@ -104,3 +104,13 @@ These cause unnecessary re-renders as each time the array's identity changes and
 [No Color Literals]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-color-literals.md
 [Splitting Platform Components]: https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/split-platform-components.md
 [No Single Element Style Arrays]: https://github.com/intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-single-element-style-arrays.md
+
+## :label:&nbsp; Badge
+
+Are you using this in one of your projects? Include one of these badges in your README to let others know that your code is using the Fooxly code style.
+
+[![js-fooxly-style](https://img.shields.io/badge/code%20style-fooxly-brightgreen)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
+
+```md
+[![js-fooxly-style](https://img.shields.io/badge/code%20style-fooxly-brightgreen)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
+```
