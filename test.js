@@ -4,7 +4,7 @@ const baseConfig = require('.')
 const engine = new eslint.CLIEngine({ baseConfig, parser: 'babel-eslint', ignore: false })
 const report = engine.executeOnFiles('test/fail')
 
-const EXPECTED_ERROR = 2
+const EXPECTED_ERROR = 3
 const EXPECTED_WARN = 2
 
 if (report.errorCount !== EXPECTED_ERROR || report.warningCount !== EXPECTED_WARN) {

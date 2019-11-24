@@ -21,10 +21,21 @@ export const TestColorLiterals = () => {
   return <View style={styles.test} />
 }
 
-const TestUnusedStyles = StyleSheet.create({
+export const TestSingleStyleArray = () => {
+  const styles = StyleSheet.create({
+    test: {
+      flex: 1
+    }
+  })
+
+  return <View style={[styles.test]} />
+}
+
+export const TestUnusedStyles = StyleSheet.create({
   unusedStyle: {
     flex: 1
   }
 })
 
-console.log('use tests', TestSplitPlatform, TestUnusedStyles)
+// Fixes unused variable error
+console.log('use import', TestSplitPlatform)

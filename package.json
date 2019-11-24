@@ -32,13 +32,13 @@
   },
   "dependencies": {
     "@fooxly/eslint-config-react": "^2.0.0",
-    "eslint": "^6.6.0",
+    "eslint": "^6.7.0",
     "eslint-plugin-react-native": "^3.8.1"
   },
   "devDependencies": {
     "@babel/core": "^7.7.4",
     "@fooxly/babel-preset-react": "^2.1.0",
     "babel-eslint": "^10.0.3",
-    "react": "^16.11.0"
+    "react": "^16.12.0"
   }
 }
