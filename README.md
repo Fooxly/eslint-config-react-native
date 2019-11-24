@@ -4,6 +4,7 @@ The default [ESLint](https://eslint.org/) config for [Fooxly](https://www.fooxly
 
 [![npm version](https://img.shields.io/npm/v/@fooxly/eslint-config-react-native.svg?style=flat)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
 [![downloads](https://img.shields.io/npm/dt/@fooxly/eslint-config-react-native.svg)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
+[![js-fooxly-style](https://img.shields.io/badge/code%20style-fooxly-brightgreen)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
 [![ci status](https://github.com/Fooxly/eslint-config-react-native/workflows/tests/badge.svg)](https://github.com/Fooxly/eslint-config-react-native/actions?query=workflow%3Atests)
 
 ## :rocket:&nbsp; Powered By
