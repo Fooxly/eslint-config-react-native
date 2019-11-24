@@ -17,6 +17,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Changed
 - Updated [@fooxly/eslint-config-react] to newest version
 
+### Fixed
+- Tests to support newest dependencies
+
 ## [1.0.0] - 2019-10-21
 ### Added
 - The default [ESLint] config [Fooxly] uses for React Native projects
