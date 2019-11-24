@@ -3,15 +3,17 @@
 The default [ESLint](https://eslint.org/) config for [Fooxly](https://www.fooxly.com) projects using React Native.
 
 [![npm version](https://img.shields.io/npm/v/@fooxly/eslint-config-react-native.svg?style=flat)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
+[![downloads](https://img.shields.io/npm/dt/@fooxly/eslint-config-react-native.svg)](https://www.npmjs.com/package/@fooxly/eslint-config-react-native)
+[![ci status](https://github.com/Fooxly/eslint-config-react-native/workflows/tests/badge.svg)](https://github.com/Fooxly/eslint-config-react-native/actions?query=workflow%3Atests)
 
 ## :rocket:&nbsp; Powered By
 
 - [@fooxly/eslint-config-react](https://www.npmjs.com/package/@fooxly/eslint-config-react)
 - [eslint-plugin-react-native](https://www.npmjs.com/package/eslint-plugin-react-native)
 
-## ❤&nbsp; Support us
+## :heart:&nbsp; Support us
 
-> <span style="color:#32CD32">**40%**</span> of the revenue made from the support you give us, will be donated to a [charity](https://teamtrees.org)
+> About **40%** of your donation goes to one of the charities we support. For further information or questions please visit [our website](https://www.fooxly.com/charity) or contact us via [charity@fooxly.com](mailto:charity@fooxly.com).
 
 <p>
   <a title="BuyMeACoffee" href="https://www.buymeacoffee.com/fooxly">
@@ -97,7 +99,7 @@ Splitting platform-specific parts of your app in multiple files produces the cor
 
 Logging level: **Error**
 
-These cause unnecessary re-renders as each time the array's identity changes and are therefore not allowed.
+These cause an unnecessary performance loss due to the array's identity changing on every re-render, and are therefore not allowed.
 
 [No Inline Styles]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-inline-styles.md
 [No Unused Styles]: https://github.com/Intellicode/eslint-plugin-react-native/blob/HEAD/docs/rules/no-unused-styles.md
