@@ -1,6 +1,6 @@
 {
   "name": "@fooxly/eslint-config-react-native",
-  "version": "2.0.1",
+  "version": "3.0.0",
   "description": "The default ESLint config for Fooxly projects using React Native.",
   "keywords": [
     "fooxly",
@@ -31,14 +31,19 @@
     "test": "eslint --parser babel-eslint test/success && node test"
   },
   "dependencies": {
-    "@fooxly/eslint-config-react": "^2.0.0",
-    "eslint": "^6.7.0",
-    "eslint-plugin-react-native": "^3.8.1"
+    "@fooxly/eslint-config-react": "^2.0.1",
+    "eslint": "^7.0.0",
+    "eslint-plugin-import": "^2.20.2",
+    "eslint-plugin-node": "^11.1.0",
+    "eslint-plugin-react": "^7.20.0",
+    "eslint-plugin-react-hooks": "^4.0.2",
+    "eslint-plugin-react-native": "^3.8.1",
+    "eslint-plugin-standard": "^4.0.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.4",
-    "@fooxly/babel-preset-react": "^2.1.0",
-    "babel-eslint": "^10.0.3",
-    "react": "^16.12.0"
+    "@babel/core": "^7.9.6",
+    "@fooxly/babel-preset-react": "^3.0.0",
+    "babel-eslint": "^10.1.0",
+    "react": "^16.13.1"
   }
 }
